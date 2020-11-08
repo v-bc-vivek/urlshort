@@ -30,7 +30,7 @@ $ npm install
 $ npm run dev
 ```
 **Api Information:**
-
+Create short Url
 ```shell
 http://localhost:4400/v1/create
 ```
@@ -40,6 +40,10 @@ Body `application/json`
     {
     "longUrl": "https://www.zee5.com/zee5originals/details/bicchoo-ka-khel/0-6-3064"
     }
+```
+Get short Url
+```shell
+http://localhost:4400/v1/{shortURL}
 ```
 
 Running in this configuration, the `port` and `dbName` elements of `dbConfig`
