@@ -16,7 +16,7 @@ Quick Start
 
 ```js
 {
- "mongoURI": "your mongo connection string",
+ "mongoURI": "your mongo connection string", 
 }
 ```
 
@@ -28,6 +28,18 @@ $ git clone
 $ cd urlshort
 $ npm install
 $ npm run dev
+```
+**Api Information:**
+
+```shell
+http://localhost:4400/v1/create
+```
+Body `application/json`
+
+```js 
+    {
+    "longUrl": "https://www.zee5.com/zee5originals/details/bicchoo-ka-khel/0-6-3064"
+    }
 ```
 
 Running in this configuration, the `port` and `dbName` elements of `dbConfig`
